@@ -45,7 +45,7 @@ class MyWebServer(socketserver.BaseRequestHandler):
             file_type = "text/css"
         
         # determine the file type first to process the request separetely
-        # https://www.geeksforgeeks.org/python-os-path-commonprefix-method/
+        # https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
 
         file_relative_path = self.get_file_relative_path(path)
 
